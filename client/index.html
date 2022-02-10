@@ -1,0 +1,23 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>trollchat</title>
+        <link rel="stylesheet" href="./css/main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.socket.io/4.4.1/socket.io.min.js" integrity="sha384-fKnu0iswBIqkjxrhQCTZ7qlLHOFEgNkRmK2vaO/LbTZSXdJfAu6ewRBdwHPhBo/H" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div id="app">
+            <div class="chat">
+                <div class="msg-box"></div>
+                <div class="input-box">
+                    <button class="username" id="chat-user">...</button>
+                    <textarea name="content" id="chat-input"></textarea>
+                </div>
+            </div>
+        </div>
+        <script type="module" src="/main.js"></script>
+    </body>
+</html>
